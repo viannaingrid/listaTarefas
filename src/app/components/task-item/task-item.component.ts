@@ -3,7 +3,6 @@ import { Component, Input, output, EventEmitter } from '@angular/core';
 import {faTimes} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CommonModule } from '@angular/common';
-import { EventEmitter } from 'stream';
 
 @Component({
   selector: 'app-task-item',
