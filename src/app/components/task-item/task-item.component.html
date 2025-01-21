@@ -1,4 +1,4 @@
-<section class="task">
+<section class="task" (dblclick)="onToggle(tarefa)">
   <h3>{{tarefa.tarefa}}
     <fa-icon [icon]="faTimes" [ngStyle]="{'color': 'red'}" (click)="onDelete(tarefa)"></fa-icon>
   </h3>
