@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Tarefa } from '../../../Tarefa';
-import {faTimes} from '@fort';
+import {faTimes} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-task-item',
@@ -9,4 +9,6 @@ import {faTimes} from '@fort';
 })
 export class TaskItemComponent {
   @Input() tarefa!: Tarefa;
+
+  faTimes = faTimes
 }
