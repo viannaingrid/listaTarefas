@@ -13,6 +13,6 @@ export class TaskService {
   constructor(private http: HttpClient) { }
 
   getTasks() : Observable<Tarefa[]>{
-
+    return this.http.get<Tarefa[]>(this.apiUrl);
   }
 }
