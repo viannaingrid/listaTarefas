@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Tarefa } from '../../../Tarefa';
+import {faTimes} from '@fort';
 
 @Component({
   selector: 'app-task-item',
