@@ -24,6 +24,6 @@ export class TasksComponent implements OnInit {
   }
 
   deleteTask(tarefa:Tarefa) {
-
+    this.taskService.deleteTask(tarefa).subscribe();
   }
 }
