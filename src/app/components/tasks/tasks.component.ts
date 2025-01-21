@@ -1,6 +1,6 @@
+import { Tarefa } from './../../../Tarefa';
 import { TaskService } from './../../services/task.service';
 import { Component, OnInit } from '@angular/core';
-import { Tarefa } from '../../../Tarefa';
 import { CommonModule } from '@angular/common';
 import { TaskItemComponent } from "../task-item/task-item.component";
 
@@ -21,5 +21,9 @@ export class TasksComponent implements OnInit {
       this.tarefas = dado;
       console.log(dado);
     });
+  }
+
+  deleteTask(tarefa:Tarefa) {
+
   }
 }
